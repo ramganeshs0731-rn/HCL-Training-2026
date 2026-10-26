@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ramga\\source\\repos\\ConsoleApp2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94C9DD85-50BA-4249-AFAD-50A80BCFB1F6}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\ramga\\source\\repos\\consoleapp2\\consoleapp2\\jsondemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C9DD85-50BA-4249-AFAD-50A80BCFB1F6}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\jsondemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94C9DD85-50BA-4249-AFAD-50A80BCFB1F6}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\ramga\\source\\repos\\consoleapp2\\consoleapp2\\fileopr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C9DD85-50BA-4249-AFAD-50A80BCFB1F6}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\fileopr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94C9DD85-50BA-4249-AFAD-50A80BCFB1F6}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\ramga\\source\\repos\\consoleapp2\\consoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C9DD85-50BA-4249-AFAD-50A80BCFB1F6}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JsonDemo.cs",
+              "DocumentMoniker": "C:\\Users\\ramga\\source\\repos\\ConsoleApp2\\ConsoleApp2\\JsonDemo.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\JsonDemo.cs",
+              "ToolTip": "C:\\Users\\ramga\\source\\repos\\ConsoleApp2\\ConsoleApp2\\JsonDemo.cs",
+              "RelativeToolTip": "ConsoleApp2\\JsonDemo.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-17T06:51:13.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileOpr.cs",
+              "DocumentMoniker": "C:\\Users\\ramga\\source\\repos\\ConsoleApp2\\ConsoleApp2\\FileOpr.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\FileOpr.cs",
+              "ToolTip": "C:\\Users\\ramga\\source\\repos\\ConsoleApp2\\ConsoleApp2\\FileOpr.cs",
+              "RelativeToolTip": "ConsoleApp2\\FileOpr.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-17T04:45:35.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ramga\\source\\repos\\ConsoleApp2\\ConsoleApp2\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Program.cs",
+              "ToolTip": "C:\\Users\\ramga\\source\\repos\\ConsoleApp2\\ConsoleApp2\\Program.cs",
+              "RelativeToolTip": "ConsoleApp2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-17T04:44:51.052Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

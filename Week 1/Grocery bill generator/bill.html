@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Grocery Billing Generator</title>
+
+</head>
+
+<body>
+
+    <h2>Grocery Store Billing</h2>
+
+    <form onsubmit="generateBill(event)">
+
+        <label>Product:</label>
+
+        <select id="product">
+
+            <option value="rice">Rice - ₹60/kg</option>
+
+            <option value="sugar">Sugar - ₹50/kg</option>
+
+            <option value="oil">Oil - ₹120/litre</option>
+
+            <option value="milk">Milk - ₹30/litre</option>
+
+            <option value="bread">Bread - ₹40</option>
+
+        </select>
+
+        <br><br>
+
+
+        <label>Quantity:</label>
+
+        <input type="number" id="quantity" min="1" required>
+
+        <br><br>
+
+
+        <button type="submit">Add Product</button>
+
+    </form>
+
+
+    <h3>Bill</h3>
+
+    <p id="result"></p>
+
+
+    <script src="bill.js"></script>
+
+</body>
+
+</html>

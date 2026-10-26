@@ -1,0 +1,15 @@
+C:\Users\ramga\source\repos\oops\oops\bin\Debug\net10.0\Courses Training.exe
+C:\Users\ramga\source\repos\oops\oops\bin\Debug\net10.0\Courses Training.deps.json
+C:\Users\ramga\source\repos\oops\oops\bin\Debug\net10.0\Courses Training.runtimeconfig.json
+C:\Users\ramga\source\repos\oops\oops\bin\Debug\net10.0\Courses Training.dll
+C:\Users\ramga\source\repos\oops\oops\bin\Debug\net10.0\Courses Training.pdb
+C:\Users\ramga\source\repos\oops\oops\obj\Debug\net10.0\Courses Training.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ramga\source\repos\oops\oops\obj\Debug\net10.0\Courses Training.AssemblyInfoInputs.cache
+C:\Users\ramga\source\repos\oops\oops\obj\Debug\net10.0\Courses Training.AssemblyInfo.cs
+C:\Users\ramga\source\repos\oops\oops\obj\Debug\net10.0\Courses Training.csproj.CoreCompileInputs.cache
+C:\Users\ramga\source\repos\oops\oops\obj\Debug\net10.0\Courses Training.dll
+C:\Users\ramga\source\repos\oops\oops\obj\Debug\net10.0\refint\Courses Training.dll
+C:\Users\ramga\source\repos\oops\oops\obj\Debug\net10.0\Courses Training.pdb
+C:\Users\ramga\source\repos\oops\oops\obj\Debug\net10.0\Courses Training.genruntimeconfig.cache
+C:\Users\ramga\source\repos\oops\oops\obj\Debug\net10.0\ref\Courses Training.dll
+C:\Users\ramga\source\repos\oops\oops\obj\Debug\net10.0\Courses .0AEB62BC.Up2Date

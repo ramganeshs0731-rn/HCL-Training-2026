@@ -1,0 +1,15 @@
+C:\Users\ramga\source\repos\LinqMasteryPractice\LinqMasteryPractice\obj\Debug\net10.0\LinqMasteryPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ramga\source\repos\LinqMasteryPractice\LinqMasteryPractice\obj\Debug\net10.0\LinqMasteryPractice.AssemblyInfoInputs.cache
+C:\Users\ramga\source\repos\LinqMasteryPractice\LinqMasteryPractice\obj\Debug\net10.0\LinqMasteryPractice.AssemblyInfo.cs
+C:\Users\ramga\source\repos\LinqMasteryPractice\LinqMasteryPractice\obj\Debug\net10.0\LinqMasteryPractice.csproj.CoreCompileInputs.cache
+C:\Users\ramga\source\repos\LinqMasteryPractice\LinqMasteryPractice\bin\Debug\net10.0\LinqMasteryPractice.exe
+C:\Users\ramga\source\repos\LinqMasteryPractice\LinqMasteryPractice\bin\Debug\net10.0\LinqMasteryPractice.deps.json
+C:\Users\ramga\source\repos\LinqMasteryPractice\LinqMasteryPractice\bin\Debug\net10.0\LinqMasteryPractice.runtimeconfig.json
+C:\Users\ramga\source\repos\LinqMasteryPractice\LinqMasteryPractice\bin\Debug\net10.0\LinqMasteryPractice.dll
+C:\Users\ramga\source\repos\LinqMasteryPractice\LinqMasteryPractice\bin\Debug\net10.0\LinqMasteryPractice.pdb
+C:\Users\ramga\source\repos\LinqMasteryPractice\LinqMasteryPractice\obj\Debug\net10.0\LinqMasteryPractice.dll
+C:\Users\ramga\source\repos\LinqMasteryPractice\LinqMasteryPractice\obj\Debug\net10.0\refint\LinqMasteryPractice.dll
+C:\Users\ramga\source\repos\LinqMasteryPractice\LinqMasteryPractice\obj\Debug\net10.0\LinqMasteryPractice.pdb
+C:\Users\ramga\source\repos\LinqMasteryPractice\LinqMasteryPractice\obj\Debug\net10.0\LinqMasteryPractice.genruntimeconfig.cache
+C:\Users\ramga\source\repos\LinqMasteryPractice\LinqMasteryPractice\obj\Debug\net10.0\ref\LinqMasteryPractice.dll
+C:\Users\ramga\source\repos\LinqMasteryPractice\LinqMasteryPractice\obj\Debug\net10.0\LinqMast.0F8E1491.Up2Date

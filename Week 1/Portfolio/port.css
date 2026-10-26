@@ -1,0 +1,929 @@
+/* =========================================================
+   GLOBAL
+========================================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f5f3ee;
+    color: #111111;
+
+    font-family: "Inter", sans-serif;
+
+    overflow-x: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+::selection {
+    background: #111111;
+    color: #f5f3ee;
+}
+
+
+/* =========================================================
+   NAVBAR
+========================================================= */
+
+.navbar {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    height: 80px;
+
+    padding: 0 40px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    z-index: 1000;
+
+    mix-blend-mode: difference;
+
+    color: white;
+}
+
+.logo {
+    width: 45px;
+    height: 45px;
+
+    border: 1px solid currentColor;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    letter-spacing: -1px;
+}
+
+.nav-links {
+    display: flex;
+
+    gap: 35px;
+
+    font-family: "DM Mono", monospace;
+
+    font-size: 11px;
+
+    text-transform: uppercase;
+}
+
+.nav-links a {
+    transition: opacity 0.3s ease;
+}
+
+.nav-links a:hover {
+    opacity: 0.5;
+}
+
+.nav-contact {
+    font-family: "DM Mono", monospace;
+
+    font-size: 11px;
+
+    text-transform: uppercase;
+
+    border-bottom: 1px solid currentColor;
+
+    padding-bottom: 4px;
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.hero {
+    min-height: 100vh;
+
+    padding: 130px 40px 50px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+
+.hero-top {
+    display: flex;
+
+    justify-content: space-between;
+
+    font-family: "DM Mono", monospace;
+
+    font-size: 10px;
+
+    letter-spacing: 0.04em;
+}
+
+.hero-content {
+    margin-top: auto;
+}
+
+.hero-title {
+    font-size: clamp(90px, 18vw, 280px);
+
+    font-weight: 800;
+
+    letter-spacing: -0.09em;
+
+    line-height: 0.75;
+
+    text-transform: uppercase;
+}
+
+.hero-title span {
+    display: block;
+}
+
+.hero-title .indent {
+    margin-left: 11vw;
+}
+
+.hero-bottom {
+    margin-top: 70px;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    align-items: end;
+
+    gap: 50px;
+}
+
+.hero-photo {
+    width: min(350px, 100%);
+
+    aspect-ratio: 4 / 5;
+
+    overflow: hidden;
+
+    background: #d8d5cd;
+}
+
+.hero-photo img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    filter: grayscale(100%);
+
+    transition: transform 0.7s ease;
+}
+
+.hero-photo:hover img {
+    transform: scale(1.04);
+}
+
+.hero-description {
+    max-width: 570px;
+
+    font-size: 22px;
+
+    line-height: 1.3;
+
+    letter-spacing: -0.03em;
+}
+
+.hero-description .hello {
+    font-size: 48px;
+
+    font-weight: 700;
+
+    margin-bottom: 25px;
+
+    letter-spacing: -0.06em;
+}
+
+.hero-description p + p {
+    margin-top: 18px;
+}
+
+
+/* =========================================================
+   MARQUEE
+========================================================= */
+
+.marquee {
+    width: 100%;
+
+    overflow: hidden;
+
+    border-top: 1px solid #111;
+
+    border-bottom: 1px solid #111;
+
+    padding: 25px 0;
+
+    white-space: nowrap;
+}
+
+.marquee-track {
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 35px;
+
+    animation: marquee 25s linear infinite;
+
+    font-size: clamp(35px, 5vw, 75px);
+
+    font-weight: 700;
+
+    letter-spacing: -0.07em;
+}
+
+@keyframes marquee {
+
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+
+}
+
+
+/* =========================================================
+   COMMON SECTION
+========================================================= */
+
+.section-label {
+    font-family: "DM Mono", monospace;
+
+    font-size: 10px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.05em;
+
+    margin-bottom: 70px;
+}
+
+
+/* =========================================================
+   INTRO
+========================================================= */
+
+.intro {
+    padding: 160px 40px;
+
+    display: grid;
+
+    grid-template-columns: 25% 75%;
+}
+
+.intro-text {
+    max-width: 1000px;
+
+    font-size: clamp(40px, 6vw, 90px);
+
+    font-weight: 500;
+
+    line-height: 0.98;
+
+    letter-spacing: -0.065em;
+}
+
+.intro-text p + p {
+    margin-top: 50px;
+}
+
+.intro-text span {
+    text-decoration: underline;
+
+    text-decoration-thickness: 2px;
+
+    text-underline-offset: 8px;
+}
+
+
+/* =========================================================
+   SKILLS
+========================================================= */
+
+.skills-section {
+    padding: 100px 40px 160px;
+}
+
+.skill-list {
+    border-top: 1px solid #111;
+}
+
+.skill-item {
+    display: grid;
+
+    grid-template-columns: 15% 1fr auto;
+
+    align-items: center;
+
+    padding: 28px 0;
+
+    border-bottom: 1px solid #111;
+
+    transition:
+        padding 0.4s ease,
+        background 0.4s ease;
+}
+
+.skill-number {
+    font-family: "DM Mono", monospace;
+
+    font-size: 11px;
+}
+
+.skill-name {
+    font-size: clamp(45px, 7vw, 105px);
+
+    font-weight: 700;
+
+    letter-spacing: -0.08em;
+
+    line-height: 0.85;
+
+    transition: transform 0.4s ease;
+}
+
+.skill-arrow {
+    font-size: 35px;
+
+    transition: transform 0.4s ease;
+}
+
+.skill-item:hover {
+    padding-left: 20px;
+
+    padding-right: 20px;
+}
+
+.skill-item:hover .skill-name {
+    transform: translateX(15px);
+}
+
+.skill-item:hover .skill-arrow {
+    transform: rotate(45deg);
+}
+
+
+/* =========================================================
+   WORK
+========================================================= */
+
+.work-section {
+    padding: 100px 40px 160px;
+}
+
+.project {
+    border-top: 1px solid #111;
+
+    padding: 35px 0 80px;
+
+    display: grid;
+
+    grid-template-columns: 58% 42%;
+
+    gap: 50px;
+}
+
+.project:last-child {
+    border-bottom: 1px solid #111;
+}
+
+.project-image {
+    width: 100%;
+
+    aspect-ratio: 16 / 10;
+
+    background: #dedbd3;
+
+    overflow: hidden;
+}
+
+.project-placeholder {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: clamp(40px, 8vw, 120px);
+
+    font-weight: 800;
+
+    letter-spacing: -0.08em;
+
+    transition:
+        transform 0.6s ease,
+        background 0.6s ease;
+}
+
+.project:hover .project-placeholder {
+    transform: scale(1.03);
+
+    background: #111;
+
+    color: #f5f3ee;
+}
+
+.project-info {
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    min-height: 100%;
+}
+
+.project-info h2 {
+    font-size: clamp(35px, 4vw, 65px);
+
+    line-height: 0.92;
+
+    letter-spacing: -0.065em;
+
+    max-width: 600px;
+}
+
+.project-info p {
+    margin-top: 30px;
+
+    max-width: 470px;
+
+    font-size: 16px;
+
+    line-height: 1.5;
+}
+
+.project-meta {
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 15px;
+
+    font-family: "DM Mono", monospace;
+
+    font-size: 9px;
+
+    text-transform: uppercase;
+}
+
+
+/* =========================================================
+   STATEMENT
+========================================================= */
+
+.statement {
+    padding: 180px 40px;
+
+    background: #111;
+
+    color: #f5f3ee;
+}
+
+.statement-big {
+    font-size: clamp(65px, 11vw, 170px);
+
+    line-height: 0.84;
+
+    letter-spacing: -0.09em;
+
+    font-weight: 700;
+}
+
+.statement-big span {
+    display: inline-block;
+
+    border-bottom: 3px solid #f5f3ee;
+}
+
+
+/* =========================================================
+   BACKGROUND
+========================================================= */
+
+.education {
+    padding: 150px 40px;
+}
+
+.background-row {
+    display: grid;
+
+    grid-template-columns: 25% 75%;
+
+    padding: 45px 0;
+
+    border-top: 1px solid #111;
+}
+
+.background-row:last-child {
+    border-bottom: 1px solid #111;
+}
+
+.background-year {
+    font-family: "DM Mono", monospace;
+
+    font-size: 10px;
+
+    text-transform: uppercase;
+}
+
+.background-row h3 {
+    font-size: clamp(35px, 5vw, 75px);
+
+    line-height: 0.9;
+
+    letter-spacing: -0.07em;
+
+    max-width: 900px;
+}
+
+.background-row p {
+    margin-top: 20px;
+
+    font-size: 16px;
+}
+
+
+/* =========================================================
+   CONTACT
+========================================================= */
+
+.contact {
+    min-height: 90vh;
+
+    padding: 130px 40px 80px;
+
+    background: #e5e1d8;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+
+.contact-title {
+    font-size: clamp(90px, 17vw, 260px);
+
+    font-weight: 800;
+
+    line-height: 0.75;
+
+    letter-spacing: -0.1em;
+}
+
+.contact-title span {
+    display: block;
+
+    margin-left: 12vw;
+
+    text-decoration: underline;
+
+    text-decoration-thickness: 4px;
+
+    text-underline-offset: 10px;
+}
+
+.contact-bottom {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: end;
+
+    gap: 40px;
+}
+
+.contact-bottom p {
+    max-width: 420px;
+
+    font-size: 16px;
+
+    line-height: 1.5;
+}
+
+.email-link {
+    font-size: clamp(20px, 3vw, 40px);
+
+    letter-spacing: -0.05em;
+
+    border-bottom: 2px solid #111;
+
+    padding-bottom: 5px;
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+footer {
+    background: #111;
+
+    color: #f5f3ee;
+
+    padding: 60px 40px 30px;
+}
+
+.footer-top {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: start;
+
+    padding-bottom: 100px;
+}
+
+.footer-logo {
+    width: 70px;
+    height: 70px;
+
+    border: 1px solid #f5f3ee;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-weight: 700;
+}
+
+.footer-text {
+    font-family: "DM Mono", monospace;
+
+    font-size: 10px;
+
+    line-height: 1.6;
+
+    text-align: right;
+}
+
+.footer-bottom {
+    border-top: 1px solid #555;
+
+    padding-top: 20px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    font-family: "DM Mono", monospace;
+
+    font-size: 9px;
+}
+
+.footer-bottom div {
+    display: flex;
+
+    gap: 30px;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 800px) {
+
+    .navbar {
+        height: 65px;
+
+        padding: 0 20px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-contact {
+        font-size: 9px;
+    }
+
+
+    .hero {
+        padding: 100px 20px 40px;
+    }
+
+    .hero-top {
+        font-size: 8px;
+    }
+
+    .hero-title {
+        font-size: clamp(65px, 19vw, 150px);
+
+        line-height: 0.78;
+    }
+
+    .hero-title .indent {
+        margin-left: 7vw;
+    }
+
+    .hero-bottom {
+        grid-template-columns: 1fr;
+
+        gap: 35px;
+
+        margin-top: 50px;
+    }
+
+    .hero-photo {
+        width: 60%;
+    }
+
+    .hero-description {
+        font-size: 18px;
+    }
+
+    .hero-description .hello {
+        font-size: 35px;
+    }
+
+
+    .intro {
+        padding: 100px 20px;
+
+        display: block;
+    }
+
+    .section-label {
+        margin-bottom: 45px;
+    }
+
+    .intro-text {
+        font-size: clamp(38px, 10vw, 65px);
+    }
+
+
+    .skills-section,
+    .work-section,
+    .education {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .skill-item {
+        grid-template-columns: 12% 1fr auto;
+
+        padding: 22px 0;
+    }
+
+    .skill-name {
+        font-size: clamp(35px, 10vw, 65px);
+    }
+
+    .skill-arrow {
+        font-size: 25px;
+    }
+
+
+    .project {
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+
+        padding-bottom: 60px;
+    }
+
+    .project-info {
+        gap: 50px;
+    }
+
+    .project-info h2 {
+        font-size: 45px;
+    }
+
+    .project-meta {
+        flex-wrap: wrap;
+    }
+
+
+    .statement {
+        padding: 110px 20px;
+    }
+
+    .statement-big {
+        font-size: clamp(55px, 15vw, 100px);
+    }
+
+
+    .background-row {
+        grid-template-columns: 1fr;
+
+        gap: 25px;
+    }
+
+
+    .contact {
+        padding: 100px 20px 60px;
+
+        min-height: 80vh;
+    }
+
+    .contact-title {
+        font-size: clamp(70px, 20vw, 140px);
+    }
+
+    .contact-bottom {
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+
+    .email-link {
+        font-size: 22px;
+    }
+
+
+    footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .footer-top {
+        padding-bottom: 70px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+
+        gap: 20px;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL PHONES
+========================================================= */
+
+@media (max-width: 450px) {
+
+    .hero-photo {
+        width: 75%;
+    }
+
+    .skill-item {
+        grid-template-columns: 30px 1fr auto;
+    }
+
+    .skill-number {
+        font-size: 8px;
+    }
+
+    .skill-name {
+        font-size: 35px;
+    }
+
+    .project-info h2 {
+        font-size: 38px;
+    }
+
+    .project-meta {
+        font-size: 8px;
+    }
+
+}

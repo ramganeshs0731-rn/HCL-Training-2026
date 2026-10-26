@@ -1,0 +1,364 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ramga\\source\\repos\\oops\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|c:\\users\\ramga\\source\\repos\\oops\\oops\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|solutionrelative:oops\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|c:\\users\\ramga\\source\\repos\\oops\\oops\\models\\learner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|solutionrelative:oops\\models\\learner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|c:\\users\\ramga\\source\\repos\\oops\\oops\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|solutionrelative:oops\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|c:\\users\\ramga\\source\\repos\\oops\\oops\\utilities\\inputvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|solutionrelative:oops\\utilities\\inputvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|c:\\users\\ramga\\source\\repos\\oops\\oops\\utilities\\menuhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|solutionrelative:oops\\utilities\\menuhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|c:\\users\\ramga\\source\\repos\\oops\\oops\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|solutionrelative:oops\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|c:\\users\\ramga\\source\\repos\\oops\\oops\\courses training.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|solutionrelative:oops\\courses training.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|c:\\users\\ramga\\source\\repos\\oops\\oops\\services\\enrollmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|solutionrelative:oops\\services\\enrollmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|c:\\users\\ramga\\source\\repos\\oops\\oops\\services\\learnerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|solutionrelative:oops\\services\\learnerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|c:\\users\\ramga\\source\\repos\\oops\\oops\\services\\trainingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|solutionrelative:oops\\services\\trainingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|c:\\users\\ramga\\source\\repos\\oops\\oops\\payments\\classroompaymentprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|solutionrelative:oops\\payments\\classroompaymentprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|c:\\users\\ramga\\source\\repos\\oops\\oops\\payments\\onlinepaymentprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|solutionrelative:oops\\payments\\onlinepaymentprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|c:\\users\\ramga\\source\\repos\\oops\\oops\\payments\\ipaymentprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|solutionrelative:oops\\payments\\ipaymentprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|c:\\users\\ramga\\source\\repos\\oops\\oops\\sessions\\classroomsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|solutionrelative:oops\\sessions\\classroomsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|c:\\users\\ramga\\source\\repos\\oops\\oops\\sessions\\onlinesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|solutionrelative:oops\\sessions\\onlinesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|c:\\users\\ramga\\source\\repos\\oops\\oops\\sessions\\coursesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|solutionrelative:oops\\sessions\\coursesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|c:\\users\\ramga\\source\\repos\\oops\\oops\\models\\paymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|solutionrelative:oops\\models\\paymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|c:\\users\\ramga\\source\\repos\\oops\\oops\\models\\enrollmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|solutionrelative:oops\\models\\enrollmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|c:\\users\\ramga\\source\\repos\\oops\\oops\\models\\sessionduration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|solutionrelative:oops\\models\\sessionduration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|c:\\users\\ramga\\source\\repos\\oops\\oops\\models\\coursesummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|solutionrelative:oops\\models\\coursesummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|c:\\users\\ramga\\source\\repos\\oops\\oops\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEA2CC3-A742-71C5-7F91-A6DAC90ED95B}|oops\\Courses Training.csproj|solutionrelative:oops\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Services\\ReportService.cs",
+              "RelativeDocumentMoniker": "oops\\Services\\ReportService.cs",
+              "ToolTip": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Services\\ReportService.cs",
+              "RelativeToolTip": "oops\\Services\\ReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T06:19:20.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Courses Training.csproj",
+              "DocumentMoniker": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Courses Training.csproj",
+              "RelativeDocumentMoniker": "oops\\Courses Training.csproj",
+              "ToolTip": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Courses Training.csproj",
+              "RelativeToolTip": "oops\\Courses Training.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-14T06:09:46.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "oops\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Models\\Course.cs",
+              "RelativeToolTip": "oops\\Models\\Course.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T06:11:06.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Program.cs",
+              "RelativeDocumentMoniker": "oops\\Program.cs",
+              "ToolTip": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Program.cs",
+              "RelativeToolTip": "oops\\Program.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T05:41:30.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Learner.cs",
+              "DocumentMoniker": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Models\\Learner.cs",
+              "RelativeDocumentMoniker": "oops\\Models\\Learner.cs",
+              "ToolTip": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Models\\Learner.cs",
+              "RelativeToolTip": "oops\\Models\\Learner.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAowBkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T06:11:21.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InputValidator.cs",
+              "DocumentMoniker": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Utilities\\InputValidator.cs",
+              "RelativeDocumentMoniker": "oops\\Utilities\\InputValidator.cs",
+              "ToolTip": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Utilities\\InputValidator.cs",
+              "RelativeToolTip": "oops\\Utilities\\InputValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T06:20:03.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Utilities\\MenuHandler.cs",
+              "RelativeDocumentMoniker": "oops\\Utilities\\MenuHandler.cs",
+              "ToolTip": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Utilities\\MenuHandler.cs",
+              "RelativeToolTip": "oops\\Utilities\\MenuHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T06:20:21.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnrollmentService.cs",
+              "DocumentMoniker": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Services\\EnrollmentService.cs",
+              "RelativeDocumentMoniker": "oops\\Services\\EnrollmentService.cs",
+              "ToolTip": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Services\\EnrollmentService.cs",
+              "RelativeToolTip": "oops\\Services\\EnrollmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T06:18:33.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LearnerService.cs",
+              "DocumentMoniker": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Services\\LearnerService.cs",
+              "RelativeDocumentMoniker": "oops\\Services\\LearnerService.cs",
+              "ToolTip": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Services\\LearnerService.cs",
+              "RelativeToolTip": "oops\\Services\\LearnerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T06:18:06.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TrainingService.cs",
+              "DocumentMoniker": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Services\\TrainingService.cs",
+              "RelativeDocumentMoniker": "oops\\Services\\TrainingService.cs",
+              "ToolTip": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Services\\TrainingService.cs",
+              "RelativeToolTip": "oops\\Services\\TrainingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T06:17:41.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClassroomPaymentProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Payments\\ClassroomPaymentProcessor.cs",
+              "RelativeDocumentMoniker": "oops\\Payments\\ClassroomPaymentProcessor.cs",
+              "ToolTip": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Payments\\ClassroomPaymentProcessor.cs",
+              "RelativeToolTip": "oops\\Payments\\ClassroomPaymentProcessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T06:16:56.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OnlinePaymentProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Payments\\OnlinePaymentProcessor.cs",
+              "RelativeDocumentMoniker": "oops\\Payments\\OnlinePaymentProcessor.cs",
+              "ToolTip": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Payments\\OnlinePaymentProcessor.cs",
+              "RelativeToolTip": "oops\\Payments\\OnlinePaymentProcessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T06:16:31.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IPaymentProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Payments\\IPaymentProcessor.cs",
+              "RelativeDocumentMoniker": "oops\\Payments\\IPaymentProcessor.cs",
+              "ToolTip": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Payments\\IPaymentProcessor.cs",
+              "RelativeToolTip": "oops\\Payments\\IPaymentProcessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T06:16:12.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ClassroomSession.cs",
+              "DocumentMoniker": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Sessions\\ClassroomSession.cs",
+              "RelativeDocumentMoniker": "oops\\Sessions\\ClassroomSession.cs",
+              "ToolTip": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Sessions\\ClassroomSession.cs",
+              "RelativeToolTip": "oops\\Sessions\\ClassroomSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T06:15:30.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OnlineSession.cs",
+              "DocumentMoniker": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Sessions\\OnlineSession.cs",
+              "RelativeDocumentMoniker": "oops\\Sessions\\OnlineSession.cs",
+              "ToolTip": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Sessions\\OnlineSession.cs",
+              "RelativeToolTip": "oops\\Sessions\\OnlineSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T06:15:08.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CourseSession.cs",
+              "DocumentMoniker": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Sessions\\CourseSession.cs",
+              "RelativeDocumentMoniker": "oops\\Sessions\\CourseSession.cs",
+              "ToolTip": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Sessions\\CourseSession.cs",
+              "RelativeToolTip": "oops\\Sessions\\CourseSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T06:14:51.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PaymentStatus.cs",
+              "DocumentMoniker": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Models\\PaymentStatus.cs",
+              "RelativeDocumentMoniker": "oops\\Models\\PaymentStatus.cs",
+              "ToolTip": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Models\\PaymentStatus.cs",
+              "RelativeToolTip": "oops\\Models\\PaymentStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T06:14:06.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EnrollmentStatus.cs",
+              "DocumentMoniker": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Models\\EnrollmentStatus.cs",
+              "RelativeDocumentMoniker": "oops\\Models\\EnrollmentStatus.cs",
+              "ToolTip": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Models\\EnrollmentStatus.cs",
+              "RelativeToolTip": "oops\\Models\\EnrollmentStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T06:13:47.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SessionDuration.cs",
+              "DocumentMoniker": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Models\\SessionDuration.cs",
+              "RelativeDocumentMoniker": "oops\\Models\\SessionDuration.cs",
+              "ToolTip": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Models\\SessionDuration.cs",
+              "RelativeToolTip": "oops\\Models\\SessionDuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T06:12:54.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CourseSummary.cs",
+              "DocumentMoniker": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Models\\CourseSummary.cs",
+              "RelativeDocumentMoniker": "oops\\Models\\CourseSummary.cs",
+              "ToolTip": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Models\\CourseSummary.cs",
+              "RelativeToolTip": "oops\\Models\\CourseSummary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T06:12:23.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "oops\\Models\\Enrollment.cs",
+              "ToolTip": "C:\\Users\\ramga\\source\\repos\\oops\\oops\\Models\\Enrollment.cs",
+              "RelativeToolTip": "oops\\Models\\Enrollment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T06:11:38.744Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

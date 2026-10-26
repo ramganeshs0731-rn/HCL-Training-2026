@@ -1,0 +1,10 @@
+td{
+    cursor: pointer;
+    background-color: darkgrey;
+}
+td:hover
+{
+    background-color: rgb(101, 104, 104);
+}
+
+

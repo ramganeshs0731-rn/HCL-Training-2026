@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Catalogue System</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="brand">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <span>Course_Catalogue</span>
+      </div>
+
+      <nav class="nav-menu">
+        <button class="nav-item active" data-tab="dashboard">
+          <i class="fa-solid fa-chart-line"></i> Dashboard
+        </button>
+        <button class="nav-item" data-tab="courses">
+          <i class="fa-solid fa-book-open"></i> Courses
+        </button>
+        <button class="nav-item" data-tab="learners">
+          <i class="fa-solid fa-user-graduate"></i> Learners
+        </button>
+        <button class="nav-item" data-tab="calculator">
+          <i class="fa-solid fa-calculator"></i> Fee Calculator
+        </button>
+        <button class="nav-item" data-tab="payments">
+          <i class="fa-solid fa-credit-card"></i> Payments
+        </button>
+      </nav>
+
+      <div class="api-status-card">
+        <div class="status-indicator">
+          <span class="status-dot offline" id="apiDot"></span>
+          <span class="status-text" id="apiStatusText">Checking Backend...</span>
+        </div>
+        <div class="api-url-input">
+          <label for="apiUrl">API Endpoint:</label>
+          <input type="text" id="apiUrl" value="http://localhost:5000/api">
+        </div>
+        <button id="reconnectBtn" class="btn-sm"><i class="fa-solid fa-rotate"></i> Ping Server</button>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <!-- Top Header Bar -->
+      <header class="top-bar">
+        <h2 id="pageTitle">Dashboard Overview</h2>
+        <div class="user-profile">
+          <i class="fa-solid fa-circle-user"></i>
+          <span>Administrator</span>
+        </div>
+      </header>
+
+      <div class="content-body">
+        <!-- Toast Notification Area -->
+        <div id="toastContainer" class="toast-container"></div>
+
+        <!-- TAB 1: DASHBOARD OVERVIEW -->
+        <section id="tab-dashboard" class="tab-pane active">
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <i class="fa-solid fa-book icon"></i>
+              <div>
+                <h3 id="statTotalCourses">0</h3>
+                <p>Active Courses</p>
+              </div>
+            </div>
+            <div class="metric-card">
+              <i class="fa-solid fa-users icon"></i>
+              <div>
+                <h3 id="statTotalLearners">0</h3>
+                <p>Registered Learners</p>
+              </div>
+            </div>
+            <div class="metric-card">
+              <i class="fa-solid fa-receipt icon"></i>
+              <div>
+                <h3 id="statTotalPayments">$0.00</h3>
+                <p>Revenue Collected</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="dashboard-widgets">
+            <div class="widget">
+              <h3>Recent System Events</h3>
+              <ul id="recentEventsList" class="activity-list">
+                <li>System initialized. Ready to fetch backend data.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- TAB 2: COURSE CATALOGUE -->
+        <section id="tab-courses" class="tab-pane">
+          <div class="section-actions">
+            <input type="text" id="courseSearch" placeholder="Search courses by code or title...">
+            <button class="btn-primary" id="openCourseModalBtn"><i class="fa-solid fa-plus"></i> Add Course</button>
+          </div>
+
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Code</th>
+                <th>Title</th>
+                <th>Category</th>
+                <th>Fee ($)</th>
+                <th>Duration</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="courseTableBody">
+              <tr><td colspan="6" class="text-center">No courses loaded.</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- TAB 3: LEARNER HUB -->
+        <section id="tab-learners" class="tab-pane">
+          <div class="section-actions">
+            <input type="text" id="learnerSearch" placeholder="Search learners by ID, name, or email...">
+            <button class="btn-primary" id="openLearnerModalBtn"><i class="fa-solid fa-user-plus"></i> Register Learner</button>
+          </div>
+
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Learner ID</th>
+                <th>Full Name</th>
+                <th>Contact</th>
+                <th>Email</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="learnerTableBody">
+              <tr><td colspan="5" class="text-center">No learners loaded.</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- TAB 4: FEE CALCULATOR -->
+        <section id="tab-calculator" class="tab-pane">
+          <div class="form-container">
+            <h3>Calculate Tuition & Discounts</h3>
+            <form id="calcForm">
+              <div class="form-group">
+                <label for="calcLearner">Select Learner:</label>
+                <select id="calcLearner" required>
+                  <option value="">-- Choose Learner --</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="calcCourse">Select Course:</label>
+                <select id="calcCourse" required>
+                  <option value="">-- Choose Course --</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="calcDiscount">Scholarship / Discount (%):</label>
+                <input type="number" id="calcDiscount" value="0" min="0" max="100">
+              </div>
+              <button type="submit" class="btn-primary"><i class="fa-solid fa-calculator"></i> Calculate Final Fee</button>
+            </form>
+
+            <div id="calcResult" class="result-box hidden">
+              <h4>Fee Summary</h4>
+              <p>Base Tuition: <strong id="resBaseFee">$0.00</strong></p>
+              <p>Discount Applied: <strong id="resDiscount">0%</strong></p>
+              <hr>
+              <p class="total-price">Final Payable Fee: <strong id="resFinalFee">$0.00</strong></p>
+            </div>
+          </div>
+        </section>
+
+        <!-- TAB 5: PAYMENTS & RECEIPT -->
+        <section id="tab-payments" class="tab-pane">
+          <div class="payment-grid">
+            <div class="form-container">
+              <h3>Process Learner Payment</h3>
+              <form id="paymentForm">
+                <div class="form-group">
+                  <label for="payLearner">Select Learner:</label>
+                  <select id="payLearner" required>
+                    <option value="">-- Choose Learner --</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="payAmount">Payment Amount ($):</label>
+                  <input type="number" id="payAmount" step="0.01" min="1" required>
+                </div>
+                <div class="form-group">
+                  <label for="payMethod">Payment Method:</label>
+                  <select id="payMethod" required>
+                    <option value="Credit Card">Credit Card</option>
+                    <option value="Debit Card">Debit Card</option>
+                    <option value="Bank Transfer">Bank Transfer</option>
+                    <option value="Cash">Cash</option>
+                  </select>
+                </div>
+                <button type="submit" class="btn-primary"><i class="fa-solid fa-paper-plane"></i> Submit Payment</button>
+              </form>
+            </div>
+
+            <div class="receipt-container">
+              <h3>Recent Digital Receipts</h3>
+              <div id="receiptsList" class="receipts-list">
+                <p class="text-center">No receipts recorded yet.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- CLI Terminal Logs Footer -->
+      <footer class="cli-footer">
+        <div class="cli-header">
+          <span><i class="fa-solid fa-terminal"></i> API Request Log</span>
+          <button id="clearCliBtn" class="btn-sm"><i class="fa-solid fa-trash"></i> Clear Logs</button>
+        </div>
+        <div id="cliLog" class="cli-log"></div>
+      </footer>
+    </main>
+  </div>
+
+  <!-- Modal for Creating/Editing Course -->
+  <div id="courseModal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h3 id="courseModalTitle">Add New Course</h3>
+      <form id="courseForm">
+        <div class="form-group">
+          <label for="courseCode">Course Code:</label>
+          <input type="text" id="courseCode" placeholder="e.g. CS101" required>
+        </div>
+        <div class="form-group">
+          <label for="courseTitle">Course Title:</label>
+          <input type="text" id="courseTitle" placeholder="e.g. C# Web API Development" required>
+        </div>
+        <div class="form-group">
+          <label for="courseCategory">Category:</label>
+          <input type="text" id="courseCategory" placeholder="e.g. Computer Science" required>
+        </div>
+        <div class="form-group">
+          <label for="courseFee">Tuition Fee ($):</label>
+          <input type="number" id="courseFee" step="0.01" required>
+        </div>
+        <div class="form-group">
+          <label for="courseDuration">Duration:</label>
+          <input type="text" id="courseDuration" placeholder="e.g. 6 Weeks" required>
+        </div>
+        <button type="submit" class="btn-primary">Save Course</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal for Creating Learner -->
+  <div id="learnerModal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h3>Register Learner</h3>
+      <form id="learnerForm">
+        <div class="form-group">
+          <label for="learnerId">Learner ID:</label>
+          <input type="text" id="learnerId" placeholder="e.g. LNR001" required>
+        </div>
+        <div class="form-group">
+          <label for="learnerName">Full Name:</label>
+          <input type="text" id="learnerName" placeholder="e.g. John Doe" required>
+        </div>
+        <div class="form-group">
+          <label for="learnerContact">Contact Number:</label>
+          <input type="text" id="learnerContact" placeholder="e.g. +1 555-0199" required>
+        </div>
+        <div class="form-group">
+          <label for="learnerEmail">Email Address:</label>
+          <input type="email" id="learnerEmail" placeholder="e.g. john@example.com" required>
+        </div>
+        <button type="submit" class="btn-primary">Register Learner</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
